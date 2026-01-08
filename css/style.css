@@ -59,8 +59,8 @@
 }
 @media (max-width: 991px) {
     .ltn__documentation-content-area {
-		padding-left: 100px;
-    	padding-right: 60px;
+		padding-left: 84px;
+    	padding-right: 32px;
 	}
 	
 }
@@ -156,4 +156,5 @@ a.page-scroll.btn.theme-btn-1:hover {
   width: 100%;
 
 }
+
 
