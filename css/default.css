@@ -307,7 +307,7 @@ ol li:before {
     overflow: hidden;
     width: 400px;
     height: 100vh;
-    padding: 50px 40px;
+    padding: 20px 40px;
     -webkit-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
