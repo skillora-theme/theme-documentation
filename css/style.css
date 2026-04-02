@@ -1,0 +1,160 @@
+/* ----------------------------------------------------
+    Header Area
+---------------------------------------------------- */
+.ltn__doc-header-area {
+    margin-bottom: 50px;
+}
+.ltn__doc-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.site-logo a img {
+    height: 60px;
+    width: auto;
+    object-fit: cover;
+}
+.site-logo a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    color: #000;
+    align-items: center;
+}
+
+/* ----------------------------------------------------
+    Documentation Area
+---------------------------------------------------- */
+.ltn__documentation-content-area {
+	padding-left: 450px;
+    padding-right: 100px;
+}
+.ltn__doc-section-title-area {
+	margin: 60px 0 40px -50px;
+    background-color: var(--section-bg-1);
+    padding: 20px 30px 5px 50px;
+}
+.ltn__doc-section-content img {
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.list-menu-1 {
+    margin: 30px 0;
+}
+.list-menu-1 ul {
+    padding: 0;
+}
+.list-menu-1 li {
+    display: block;
+    list-style: none;
+    margin-top: 5px;
+}
+.list-menu-1 li span {
+    display: inline-block;
+}
+@media (max-width: 991px) {
+    .ltn__documentation-content-area {
+		padding-left: 84px;
+    	padding-right: 32px;
+	}
+	
+}
+
+
+/* ----------------------------------------------------
+    Development
+---------------------------------------------------- */
+.code-box-copy pre, .code-box-copy textarea {
+    padding: 10px;
+    width: 100%;
+    background: #f5f5f5;
+    border: none;
+    font-size: 14px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.code-box-copy {
+    margin-top: 15px;
+}
+
+.code-box-copy {
+    position: relative;
+}
+
+span.copy-this-clipboard {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    background: var(--ltn__secondary-color);
+    color: var(--white);
+    top: 10px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.mt-20{
+    margin-top: 20px;
+}
+i.fas.fa-external-link-alt, i.fas.fa-link {
+    color: #999;
+    font-size: 12px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+/*
+span.number{
+	color: #ccc;
+	font-style: italic;
+}
+*/
+span.number {
+    color: #bbb;
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 10px;
+    border: 2px solid;
+    padding: 0px 5px;
+    min-width: 60px;
+    display: inline-block;
+}
+.ltn__section-inner-id {
+    color: #bbb;
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 10px;
+    border: 2px solid;
+    padding: 0px 5px;
+    min-width: 60px;
+    display: inline-block;
+}
+.ltn__section-id {
+	color: #bbb;
+}
+.ltn__section-id:hover {
+	color: #000;
+}
+
+
+/* Minimalin */
+.ltn__utilize-menu>ul>li>a.theme-btn-1 {
+    color: var(--white);
+    transition-duration: 600ms;
+}
+a.page-scroll.btn.theme-btn-1:hover {
+    color: #000;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+
+}
+
+
